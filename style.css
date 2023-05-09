@@ -85,6 +85,15 @@
     filter: grayscale(1);
 }
 
+/* esercizio 7 */
+.ex-7-img{
+    transition: filter 4s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
