@@ -35,11 +35,19 @@
     border-radius: 50%;
 }
 
+/* esercizio 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    opacity: 1;
+    transition: opacity 3s;
 }
+
+.ex-4-square {
+    opacity: 0;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
