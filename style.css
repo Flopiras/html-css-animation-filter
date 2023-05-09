@@ -222,3 +222,56 @@
         transform: translate(0);
     }
 }
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white{
+    animation: runleft 4s infinite;
+}
+@keyframes runleft {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    25%{
+        top: -10px;
+        left: 100%;
+    }
+    50%{
+        top: 50px;
+        left: 100%;
+    }
+    75%{
+        top: 50px;
+        left: -10%;    
+    }
+    100%{
+        top: -10px;
+        left: -10%;    
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: runright 4s infinite;
+}
+@keyframes runright {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    25%{
+        bottom: -10px;
+        right: 75%;
+    }
+    50%{
+        bottom: 50px;
+        right: 75%;
+    }
+    75%{
+        bottom: 50px;
+        right: -10%;
+    }
+    100%{
+        bottom: -10px;
+        right: -10%;
+    }
+}
