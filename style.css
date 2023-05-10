@@ -44,7 +44,7 @@
     transition: opacity 3s;
 }
 
-.ex-4-square {
+.ex-4-square:hover {
     opacity: 0;
 }
 
@@ -194,9 +194,9 @@
 
 /* esercizio 12 */
 .ex-12-button:hover .ex-12-top-white{
-    animation: runleft 2s;
+    animation: runleft_12 2s;
 }
-@keyframes runleft {
+@keyframes runleft_12 {
     0%{
         transform: translate(0);
     }
@@ -209,9 +209,9 @@
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: runright 2s;
+    animation: runright_12 2s;
 }
-@keyframes runright {
+@keyframes runright_12 {
     0%{
         transform: translate(0);
     }
@@ -225,9 +225,9 @@
 
 /* esercizio 13 */
 .ex-13-button:hover .ex-13-top-white{
-    animation: runleft 4s infinite;
+    animation: runleft_13 4s infinite;
 }
-@keyframes runleft {
+@keyframes runleft_13 {
     0%{
         top: -10px;
         left: 10%;
@@ -251,9 +251,9 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: runright 4s infinite;
+    animation: runright_13 4s infinite;
 }
-@keyframes runright {
+@keyframes runright_13 {
     0%{
         bottom: -10px;
         right: 20%;
